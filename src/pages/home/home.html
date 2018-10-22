@@ -6,22 +6,25 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <ion-card>
+<ion-content style = "background-color: #313638" padding>
 
-    <ion-item>
+
+  <ion-card >
+
+    <ion-item style = "background-color: #56666B" >
       <ion-col item-start>
-        <img (click) = "i1" src="../assets/AZCS-1041.jpg">
+        <img (click) = "i1()" src="../assets/AZCS-1041.jpg">
       </ion-col>
 
       
-       <h2 (click) = "n1">ONE OK ROCK</h2> 
+       <h2 style = "font-weight: bold" (click) = "n1()">ONE OK ROCK</h2> 
 
-       <h2 (click) = "d1">35XXXV</h2>
+       <h2 (click) = "d1()">35XXXV</h2>
        
        <h2> 2015</h2>
 
-       <ion-row (click)= "r1">  
+       <ion-row (click)= "r1()">  
+       <ion-icon name="star"></ion-icon>
        <ion-icon name="star"></ion-icon>
        <ion-icon name="star"></ion-icon>
        <ion-icon name="star"></ion-icon>
@@ -34,5 +37,93 @@
  
   </ion-item>
   </ion-card>
+
+
+  <ion-card >
+
+      <ion-item style = "background-color: #F8F0FB" >
+        <ion-col item-start>
+          <img (click) = "i2()" src="../assets/faa.png">
+        </ion-col>
+  
+        
+         <h2 style = "font-weight: bold" (click) = "n2()">Fall Out Boy</h2> 
+  
+         <h2 (click) = "d2()">American Beauty/American Psycho</h2>
+         
+         <h2> 2015</h2>
+  
+         <ion-row (click)= "r2()">  
+         <ion-icon name="star"></ion-icon>
+         <ion-icon name="star"></ion-icon>
+         <ion-icon name="star"></ion-icon>
+        </ion-row>
+  
+        <ion-row>
+          <ion-icon name="play"></ion-icon>
+        </ion-row>
+   
+    </ion-item>
+    </ion-card>
+
+
+    <ion-card >
+
+        <ion-item style = "background-color: #85BDBF" >
+          <ion-col item-start>
+            <img (click) = "i3()" src="../assets/dd.jpg">
+          </ion-col>
+    
+          
+           <h2 style = "font-weight: bold" (click) = "n3()">Gorillaz</h2> 
+    
+           <h2 (click) = "d3()">Demon Days</h2>
+           
+           <h2> 2004</h2>
+    
+           <ion-row (click)= "r3()">  
+           <ion-icon name="star"></ion-icon>
+           <ion-icon name="star"></ion-icon>
+           <ion-icon name="star"></ion-icon>
+           <ion-icon name="star"></ion-icon>
+          </ion-row>
+    
+          <ion-row>
+            <ion-icon name="play"></ion-icon>
+          </ion-row>
+     
+      </ion-item>
+      </ion-card>
+
+
+      <ion-card >
+
+        <ion-item style = "background-color: #688B58" >
+          <ion-col item-start>
+            <img (click) = "i4()" src="../assets/am.jpg">
+          </ion-col>
+    
+          
+           <h2 style = "font-weight: bold" (click) = "n4()">Arctic Monkeys</h2> 
+    
+           <h2 (click) = "d4()">AM</h2>
+           
+           <h2> 2013</h2>
+    
+           <ion-row (click)= "r4()">  
+           <ion-icon name="star"></ion-icon>
+           <ion-icon name="star"></ion-icon>
+           <ion-icon name="star"></ion-icon>
+           <ion-icon name="star"></ion-icon>
+           <ion-icon name="star"></ion-icon>
+          </ion-row>
+    
+          <ion-row>
+            <ion-icon name="play"></ion-icon>
+          </ion-row>
+     
+      </ion-item>
+      </ion-card>
+  
 
 </ion-content>
